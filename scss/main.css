@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  color: #4f4f4f;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .random {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 1.1rem;
+          column-gap: 1.1rem;
+}
+
+header .random h5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+header .random .ico {
+  width: 1.6rem;
+  height: 2.2rem;
+}
+
+.container {
+  padding: 3.1rem 5%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 689px) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+
+main {
+  margin: 8rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5rem;
+  width: 80%;
+}
+
+@media screen and (max-width: 689px) {
+  main {
+    width: 100%;
+  }
+}
+
+main .quote {
+  border-left: 0.8rem solid #f7df94;
+  padding-left: 10%;
+}
+
+main .quote article {
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #000;
+}
+
+main .meta {
+  margin-left: calc(10% + 0.8rem);
+}
+
+main .meta .author {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+main .meta .genre {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #828282;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #828282;
+}
+
+footer span {
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
